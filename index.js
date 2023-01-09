@@ -73,7 +73,7 @@ let guestscore = 0;
              let second  = time % 60;
     
              second = second < 10 ? '0' + second : second;
-             countdownEl.innerHTML = "0"+`${minutes}:${second}`;
+             countdownEl.innerHTML = `${minutes}:${second}`;
              time--;
         }
     // }

@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1"/>
+    <body>
+        
+        
+        <div class="container">
+            <div class="column1">
+                <h3 >HOME</h3>
+                <h2 class = "homescore"id="homescore">0</h2>
+                 <div>
+                    <button id="haddone" onclick="addOne()">+1</button>
+                    <button id="haddtwo" onclick="addTwo()">+2</button>
+                    <button id="haddthree" onclick="addThree()">+3</button>
+                    
+
+                </div>
+            </div>
+            <div>
+                <button id="reset" onclick="resetscore1()">Reset Score</button>
+                <p id="countdown"> </p>
+            </div>
+            
+            <div class="column1">
+                <h3 id="guest">GUEST</h3>
+                <h2 class = "guestscore" id="guestscore">0</h2>
+                <div>
+                    <button id="waddone" onclick="gaddOne()"> +1</button>
+                    <button id="waddtwo" onclick="gaddTwo()">+2</button>
+                    <button id="waddthree" onclick="gaddThree()">+3</button>
+                  
+                </div>
+            </div>
+    
+                
+        </div>
+        <img src="bb.png" alt="BB" class="center">
+        <script src="index.js"></script>
+    </body>
+</html>
